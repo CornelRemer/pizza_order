@@ -5,7 +5,7 @@ class Order(models.Model):
         ('M', '30 cm'),
         ('L', '50 cm'),
     )
-    pizza_id = models.IntegerField()
+    pizza_id = models.PositiveSmallIntegerField ()
     pizza_size = models.CharField(max_length=1, choices=SIZE)
     customer_name = models.CharField(max_length=140)
     customer_address = models.TextField()
