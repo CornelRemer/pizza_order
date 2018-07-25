@@ -28,5 +28,3 @@ You have one week to solve the task. In case you have any impediments, let us kn
 After you are done, push it to a public git repository and send me the link.
 
 Have fun and do not hesitate to ask in case you have any questions.
-
-Best
