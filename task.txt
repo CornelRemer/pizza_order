@@ -1,0 +1,32 @@
+Here is the the test task. We recommend you first to look at a Django Rest Framework tutorial and also read a bit about the Rest API principles.
+
+Please implement following logic using Django Rest Framework http://www.django-rest-framework.org/ 
+
+Imagine a simplified pizza ordering services with following functionality:
+
+1. Create order. 
+
+    Order data:
+    - pizza id
+    - pizza size (30cm/50cm)
+    - customer name
+    - customer address (just plain text)
+
+2. Update order
+3. Remove order
+4. See a list of customer orders
+
+Tasks:
+
+1. Design Model/DB structure (PostgreSQL)
+2. Design and implement API for the described web service. Please note:
+- You don’t have to take care about authentication etc, we are just interested in structure and data modelling.
+- You don’t have to implement any UI, just the API endpoints
+3. Write test(s) for at least one of these endpoint(s)
+
+You have one week to solve the task. In case you have any impediments, let us know. 
+After you are done, push it to a public git repository and send me the link.
+
+Have fun and do not hesitate to ask in case you have any questions.
+
+Best
