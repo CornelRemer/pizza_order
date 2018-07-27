@@ -9,4 +9,4 @@ install packages:
 
 db login:
     admin
-    pizzaisgreate
+    pizzaisgreat
