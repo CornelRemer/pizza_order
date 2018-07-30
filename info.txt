@@ -10,3 +10,8 @@ install packages:
 db login:
     admin
     pizzaisgreat
+
+API testing:
+    $ python manage.py runserver
+    $ python api_test.py
+    --> a result of API testing is stored in 'api_testing_protocol.txt'
