@@ -28,6 +28,8 @@ def fileWrite(title, r, newfile):
                         requests.codes.CREATED):
         f.write('\theaders:\n\t' + str(r.headers) + '\n')
         f.write('\tbody:\n\t' + str(r.json()) + '\n')
+    elif r.status_code == requests.codes.NO_CONTENT:
+        f.write('\theaders:\n\t' + str(r.headers) + '\n')
 
     f.close()
 
