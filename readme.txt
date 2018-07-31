@@ -1,3 +1,6 @@
+simplified pizza ordering service
+by Cornel Remer
+
 create virtual environment:
     $ virtualenv env --no-site-packages
 
