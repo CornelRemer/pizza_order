@@ -7,9 +7,14 @@ activate env:
 install packages:
     $ pip install -r requirements.txt
 
-db login:
+admin login:
     admin
     pizzaisgreat
+
+Postgres Database:
+    'pizzaDB.backup' is a backup for postgres (version 10.).
+    You have to create a new DB and restore 'pizzaDB.backup' in it. 
+    Change name, user and password in 'settings.py'
 
 API testing:
     $ python manage.py runserver
