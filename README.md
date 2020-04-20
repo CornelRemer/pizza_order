@@ -13,7 +13,7 @@ simplified pizza ordering service using django REST and postgreSQL.
 > *pip install -r requirements.txt*
 
 ## Run
-1. create a database oder use the *pizzaDB.backup*
+1. create a database or use the *pizzaDB.backup*
 > *psql -U username -d pizzaDB -p 5432 -1 -f pizzaDB.backup*
 2. create migrations and migrate
 > *python manage.py makemigrations*
